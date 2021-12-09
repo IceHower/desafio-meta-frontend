@@ -1,7 +1,6 @@
 import { useQuery, gql } from "@apollo/client";
 import { CountryCard } from "../../components/CountryCard";
 import { SearchComponent } from "../../components/SearchComponent";
-import { useEffect } from 'react';
 
 interface CountryProps {
     _id: number;
